@@ -66,7 +66,7 @@ pipeline {
                 
                 # tests 폴더 안에 있는 test_*.py 파일들을 모두 실행
                 # 또는 특정 파일만 실행하려면: 
-                pytest -v -s --junitxml=results.xml tests/daum_v1_test.py || true
+                pytest -v -s --junitxml=results.xml tests/Daum_Serch.py || true
                 '''
             }
         }
